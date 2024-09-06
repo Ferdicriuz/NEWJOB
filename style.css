@@ -1,0 +1,51 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Courier New', Courier, monospace;
+font-weight: 400;
+font-style: normal;
+}
+
+html {
+font-size: "62.5%";
+}
+
+.navbar{
+min-width: 100vw;
+min-height: 10vh;
+background-color: antiquewhite;
+box-shadow: 0 1rem 1rem 0 black;
+}
+
+.navbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.navbar .set1, .set2{
+width: 45%;
+height: 10vh;
+}
+
+.navbar .set1 h1{
+font-size: 15rem;
+}
+
+.navbar .set2 ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 10vh;
+}
+
+.navbar .set2 ul a{
+font-size: 5rem;
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
